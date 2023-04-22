@@ -1,0 +1,359 @@
+.container{
+    width: 1100px;
+    margin: auto;
+    background-color: black;
+    height: 76px;
+}
+.header{
+    background-color: black;
+    margin-bottom: 45px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo__link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#f89513;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.menu{
+    list-style: none;
+    padding:0;
+    margin:0;
+    display: flex;
+}
+
+.menu__item{
+    margin-right:30px;
+    
+}
+
+.menu__item:last-child{
+    margin-right:0px;
+}
+
+.menu__link__one{
+    list-style: none;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-decoration: none;
+    color: white;
+    
+}
+.tel{
+    color: white;
+    font-weight: 800;
+    font-size: 21px
+    
+}
+.scedule{
+    color: #c77814; 
+    text-decoration: underline #c77814;
+}
+.scedule:hover{
+    color: #efdccd;
+    text-decoration: underline #efdccd;
+    cursor: pointer;
+}
+.menu__link__two{
+    list-style: none;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-decoration: none;
+    color: white;
+}
+.menu__link__three{
+    list-style: none;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-decoration: none;
+    color: white;
+}
+.glav__otziv{
+    display: flex;
+    align-items: center;
+    margin-top: 47px;
+}
+.title__one{
+    color: #c77814;
+    font-size: 14px;
+}
+.title__two{
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+.work{
+    margin-right: 20px;
+}
+.img2{
+    position: relative;
+}
+.main__container{
+    width: 880px;
+    margin: auto;
+}
+.breadcrams__list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+.breadcrams__item::after{
+    content: "/";
+    margin-right: 3px;
+}
+.breadcrams__link{
+    text-decoration: none;
+    color: #656464;
+}
+.active__link{
+    text-decoration: underline;
+    color: #c77814;
+    
+
+}
+.glav__otziv{
+    margin-bottom: 28px;
+}
+.title{
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.avatar{
+    width: 160px;
+    height: 160px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url(images/card.png);
+    background-size: contain;
+}
+.comments__list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+    
+}
+.left{
+    width: 160px;
+}
+.right{
+    width: 700px;
+}
+.comments__item{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #f5f5f5;
+    
+}
+
+.data{
+    color: #656464;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+.name{
+    font-size: 18px;
+    color: black;
+    margin-bottom: 24px;
+    font-weight: 800;
+}
+.comment{
+    line-height: 22px;
+    margin-bottom: 60px;
+}
+.one{
+    background-image: url(images/inna.png);
+    background-size: contain;
+}
+.two{
+    background-image: url(images/Vector\ Smart\ Object.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.three{
+    background-image: url(images/irina.png);
+    background-size: contain;
+}
+.four{
+    margin-top: 36px;
+}
+.menuuuuuu{
+    margin-top: 60px;
+    margin-left: 380px;
+    display: flex;
+}
+.number{
+color: #737272;
+font-size: 14px;
+}
+.and{
+    background-color: black;
+    height: 24px;
+    width: 24px;
+}
+.zaivki{
+    margin-top: 65px;
+    height: 171px;
+    background-color: black;
+    width: auto;
+    background-image: url(images/pattern.png);
+    background-size: contain;
+}
+.title_text{
+    color: white;
+    position: relative;
+    top: 23px;
+    line-height: 22px;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 50px;
+    
+}
+.orange__title{
+    color: #c77814;
+    font-size: 18px;
+}
+.form{
+    background-color: #f5f5f5;
+    padding: 50px 70px;
+
+}
+.title_block{
+    color: black;
+    font-size: 49px;
+    margin-bottom: 25px;
+}
+.form-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.container_small{
+    width: 700px;
+    margin: auto;
+}
+.form_item_title{
+    color: black;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+.form_item__input{
+width: 270px;
+padding: 16px 8px;
+border-width: 0;
+outline-color: orangered;
+outline-width: 1px;
+}
+.box_sizing{
+    box-sizing: border-box;
+}
+.form_item__text{
+    resize: none;
+    width: 100%;
+    padding: 9px;
+    height: 90px;
+    border-width: 0;
+    outline-color: orange;
+}
+.text{
+    flex: 1;
+}
+*{
+box-sizing: border-box;
+}
+.form-item__input-radio{
+    position: absolute;
+    left: -9999px;
+}
+.radio--fake-button{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #dddcdc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.radio--fake-button::before{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color: orange;
+}
+.form-item__input-radio + .radio--fake-button{
+    border: 1px solid orange;
+}
+.form-item__input-radio + .radio--fake-button::before{
+    width: 8px;
+    height: 8px;
+}
+.comments-form{
+    margin-top: 65px;
+}
+/* footer */
+.footer{
+    background-color: #131415;
+    height: 75px;
+    width: 1100px;
+    margin-top: 62px;
+}
+.title-one{
+    color: #dddcdc;
+    font-size: 18px;
+    margin-left: 20px;
+    line-height: 20px;
+}
+.afrodita{
+    color: #c77814;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    top: -32px;
+    
+}
+.social{
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -80px;
+    color: #f5f5f5;
+    margin-right: 20px;
+    
+}
+.socialls{
+    display: flex;
+}
+.vk-moll{
+    background-color: #c77814;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    list-style: none;
+}
+.form-item__input-buttom{
+    height: 45px;
+    width: 127px;
+    background-color: #131415;
+    color: #dddcdc;
+    border-radius: 6px;
+    
+}
+.footer{
+    margin-left: 400px;
+    margin-top: 15px;
+}
+
+
